@@ -17,5 +17,4 @@ function attributesToPhrase(drivers){
 return drivers.map(function(d){
     return "${d['name']} is from ${d['hometown']";
   })
-  debugger;
 }
