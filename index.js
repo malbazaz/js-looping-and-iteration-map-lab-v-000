@@ -13,8 +13,8 @@ return {firstName: full[0], lastName: full[1]}
 }
 
 function attributesToPhrase(drivers){
-  const drivers1 = drivers
-return drivers1.map(function(d){
+
+return drivers.map(function(d){
     return "${d['name']} is from ${d['hometown']";
   })
 }
