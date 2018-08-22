@@ -6,6 +6,7 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(drivers){
+  debugger;
 const driverSep = {};
 return drivers.map(function(d){
   let full = d.split(" ")
