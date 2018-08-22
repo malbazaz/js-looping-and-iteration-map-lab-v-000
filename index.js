@@ -9,7 +9,7 @@ function nameToAttributes(drivers){
 const driverSep = {}
 return drivers.map(function(d){
   const full = d.split(" ")
-  full[0]
-  full[1]
+driverSep = Object.assign({firstName: full[0], lastName: full[1]})
 })
+return driverSep;
 }
