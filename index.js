@@ -14,7 +14,8 @@ return Object.assign(driverSep,{firstName: full[0], lastName: full[1]})
 }
 
 function attributesToPhrase(drivers){
-return drivers.map(function(d){
+  const drivers1 = drivers
+return drivers1.map(function(d){
     return "${d.name} is from ${hometown}";
   })
 }
